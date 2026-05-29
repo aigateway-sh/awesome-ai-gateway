@@ -69,6 +69,7 @@ Drop-in OpenAI-compatible — point the base URL at `https://api.aigateway.sh/v1
 
 - [**Promptfoo**](https://promptfoo.dev) — `providers: ['openai:chat:anthropic/claude-opus-4.7']` with `apiBaseUrl: https://api.aigateway.sh/v1`.
 - [**LiteLLM**](https://github.com/BerriAI/litellm) — add AIgateway as a custom provider; useful for teams already on LiteLLM.
+- [**AI Model Gateway**](https://github.com/SSC-STUDIO/Ai-Model-Gateway/blob/main/docs/openai-compatible-upstreams.md) — self-hosted LLM operations gateway; use AIgateway as an OpenAI-compatible upstream behind local routing, fallback, telemetry, and config rollback.
 - [**Langfuse**](https://langfuse.com) — OpenAI-wrapper auto-instruments; points traces at AIgateway transparently.
 - [**Helicone**](https://www.helicone.ai) — same — proxy or OpenAI wrapper approach.
 - [**OpenPipe**](https://openpipe.ai) — fine-tuning and eval; uses OpenAI-compatible base URL.
